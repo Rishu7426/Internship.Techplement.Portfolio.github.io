@@ -6,7 +6,7 @@ body, h1, h2, p, ul, li {
 
 /* Apply a background gradient to the body */
 body {
-    background-image: linear-gradient(90deg, #0077ffcc, rgb(0, 255, 225), #0077ffcc);
+    background: linear-gradient( cyan, rgb(34, 0, 255), cyan);
     font-family: 'Arial', sans-serif;
     color: #fff;
     margin: 0;
@@ -97,16 +97,17 @@ button {
 
 #education {
     /* background-color: rgb(224, 89, 89); */
-    background: linear-gradient(-45deg,#ff0000aa,rgba(88, 93, 183, 0.625), #ff0000a6);
+    background: linear-gradient( rgb(85, 116, 227), rgb(34, 0, 255), cyan);
 }
 
 #experience{
-    background: linear-gradient(#80b2b9,rgb(0, 94, 255), #d7a2a2);
+    /* background: linear-gradient(#80b2b9,rgb(0, 94, 255), #d7a2a2); */
+    background: linear-gradient( rgb(85, 116, 227), rgb(34, 0, 255), cyan);
 }
 
 #contact {
     /* background-color: gray; */
-    background: linear-gradient( cyan, rgb(34, 0, 255), cyan);
+    background: linear-gradient( rgb(85, 116, 227), rgb(34, 0, 255), cyan);
 }
 
 button {
