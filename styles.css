@@ -1,18 +1,24 @@
 /* Reset some default styles */
-body, h1, h2, p, ul, li {
+body,
+h1,
+h2,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
 
 /* Apply a background gradient to the body */
 body {
-    background: linear-gradient( cyan, rgb(34, 0, 255), cyan);
+    background: linear-gradient(cyan, rgb(34, 0, 255), cyan);
     font-family: 'Arial', sans-serif;
     color: #fff;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
+
 
 /* Header Styles */
 header {
@@ -46,6 +52,8 @@ nav a:hover {
     color: #3498db;
 }
 
+
+
 /* Section Styles */
 section {
     padding: 2rem;
@@ -68,11 +76,9 @@ h2 {
     font-size: 2.5rem;
 }
 
-h2:hover {
-    color: #3498db;
-}
 
 .edu-item,
+.skills-item,
 .exp-item {
     margin: 20px 0;
     padding: 20px;
@@ -97,17 +103,22 @@ button {
 
 #education {
     /* background-color: rgb(224, 89, 89); */
-    background: linear-gradient( rgb(85, 116, 227), rgb(34, 0, 255), cyan);
+    background: linear-gradient(rgb(85, 116, 227), rgb(34, 0, 255), cyan);
 }
 
-#experience{
+#skills {
+    /* background-color: rgb(224, 89, 89); */
+    background: linear-gradient(rgb(85, 116, 227), rgb(34, 0, 255), cyan);
+}
+
+#experience {
     /* background: linear-gradient(#80b2b9,rgb(0, 94, 255), #d7a2a2); */
-    background: linear-gradient( rgb(85, 116, 227), rgb(34, 0, 255), cyan);
+    background: linear-gradient(rgb(85, 116, 227), rgb(34, 0, 255), cyan);
 }
 
 #contact {
     /* background-color: gray; */
-    background: linear-gradient( rgb(85, 116, 227), rgb(34, 0, 255), cyan);
+    background: linear-gradient(rgb(85, 116, 227), rgb(34, 0, 255), cyan);
 }
 
 button {
@@ -126,11 +137,12 @@ button:hover {
     box-shadow: 0 0 10px 2px rgb(61, 61, 59);
 }
 
-footer{
+footer {
     text-align: center;
-    color:whitesmoke;
+    color: whitesmoke;
     background-color: #525252;
 }
+
 
 /* Media Query for Responsive Design */
 @media (max-width: 768px) {
